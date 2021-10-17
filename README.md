@@ -59,4 +59,4 @@ If you have any question or contributions, please email me at [bryangarizo@gmail
 
 ## License
 * [MIT](License)
-* Copyright (c) 2019 **Brian Mwenda**
+* Copyright (c) 2021 **Brian Mwenda**
