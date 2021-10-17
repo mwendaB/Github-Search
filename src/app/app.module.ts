@@ -8,13 +8,13 @@ import { ProfileService } from './profile.service'
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule }from '@angular/forms';
 import { DateCountPipe } from './date-count.pipe';
-import { NavbarComponent } from './navbar/navbar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    DateCountPipe,
-    NavbarComponent
+    DateCountPipe
+  
   ],
   imports: [
     BrowserModule,
