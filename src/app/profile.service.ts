@@ -13,3 +13,14 @@ import { HttpClient }from '@angular/common/http';
         console.log("Service is now ready!");
         this.username = "mwendaB";
       }
+      getProfileInfo(){
+        return this.http.get("https://api.github.com/users/" + this.username + "?client_id="+ this.client_id + "&client_secret=" + this.client_secret)
+      }
+
+
+  getProfileRepos(){
+    return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id="+ this.client_id + "&client_secret=" + this.client_secret)
+  }
+  updateProfile(username:string){
+    this.username = username;
+  }
