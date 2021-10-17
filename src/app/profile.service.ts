@@ -24,3 +24,4 @@ import { HttpClient }from '@angular/common/http';
   updateProfile(username:string){
     this.username = username;
   }
+}
